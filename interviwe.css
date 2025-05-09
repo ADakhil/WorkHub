@@ -1,0 +1,154 @@
+﻿body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 80px;
+    background-color: #293462;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 0 20px 20px 0;
+}
+
+.sidebar-header {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+    .nav-item:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .nav-item.active {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+    .search-bar input {
+        padding: 8px;
+        border: none;
+        outline: none;
+        flex-grow: 1;
+    }
+
+    .search-bar button {
+        background-color: #ddd;
+        color: #333;
+        border: none;
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+
+.profile-header {
+    background-color: #293462;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.main-body {
+    /* Add styles for main body content */
+}
+
+.greeting-section {
+    background-color: #293462;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.date-time {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.greeting-message {
+    font-size: 1.5em;
+}
+
+.interview-section {
+    /* Add styles for interview section */
+}
+
+.interview-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.interview-button {
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-card {
+    width: 250px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+}
+
+.profile-image {
+    margin-bottom: 20px;
+}
+
+    .profile-image img {
+        width: 100%;
+        border-radius: 50%;
+        margin-bottom:  10px;
+            
+    }

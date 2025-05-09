@@ -1,0 +1,495 @@
+﻿.home-page {
+    position: relative;
+    width: 1728px;
+    height: 3427px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+    .home-page .overlap {
+        position: absolute;
+        width: 1727px;
+        height: 112px;
+        top: 0;
+        left: 1px;
+        background-color: #d9d9d9;
+        box-shadow: 0px 4px 4px #00000040;
+    }
+
+    .home-page .text-wrapper {
+        position: absolute;
+        width: 318px;
+        top: 12px;
+        left: 15px;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #303b86;
+        font-size: 48px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .home-page .header {
+        position: absolute;
+        width: 641px;
+        height: 33px;
+        top: 48px;
+        left: 439px;
+    }
+
+    .home-page .div {
+        position: absolute;
+        top: -4px;
+        left: 258px;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #303b86;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .home-page .text-wrapper-2 {
+        position: absolute;
+        top: -4px;
+        left: 452px;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #303b86;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .home-page .text-wrapper-3 {
+        position: absolute;
+        top: -4px;
+        left: 583px;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #303b86;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .home-page .overlap-group {
+        position: absolute;
+        width: 165px;
+        height: 47px;
+        top: 34px;
+        left: 1523px;
+        background-color: #5c5f9a;
+        border-radius: 20px;
+    }
+
+    .home-page .text-wrapper-4 {
+        position: absolute;
+        top: 6px;
+        left: 34px;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #fff5f5;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .home-page .home {
+        position: absolute;
+        width: 1623px;
+        height: 468px;
+        top: 248px;
+        left: 125px;
+    }
+
+    .home-page .overlap-group-2 {
+        position: relative;
+        width: 1603px;
+        height: 468px;
+    }
+
+    .home-page .business-conference {
+        position: absolute;
+        width: 1190px;
+        height: 468px;
+        top: 0;
+        left: 413px;
+        object-fit: cover;
+    }
+
+    .home-page .rectangle {
+        position: absolute;
+        width: 614px;
+        height: 258px;
+        top: 74px;
+        left: 0;
+        background-color: #252978bf;
+        border-radius: 20px;
+        border: 1px solid;
+        border-color: #000000;
+    }
+
+    .home-page .job-opportunities {
+        position: absolute;
+        width: 591px;
+        top: 117px;
+        left: 21px;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 50px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .home-page .end {
+        position: absolute;
+        width: 1758px;
+        height: 489px;
+        top: 3044px;
+        left: 0;
+    }
+
+    .home-page .overlap-2 {
+        position: relative;
+        height: 489px;
+    }
+
+    .home-page .end-of-homepage {
+        position: absolute;
+        width: 1758px;
+        height: 477px;
+        top: 12px;
+        left: 0;
+    }
+
+    .home-page .frame {
+        position: absolute;
+        width: 966px;
+        height: 53px;
+        top: 93px;
+        left: 323px;
+    }
+
+    .home-page .text-wrapper-5 {
+        position: absolute;
+        width: 154px;
+        top: -1px;
+        left: 0;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 30px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .home-page .text-wrapper-6 {
+        position: absolute;
+        width: 154px;
+        top: -1px;
+        left: 379px;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 30px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .home-page .text-wrapper-7 {
+        position: absolute;
+        width: 208px;
+        top: -1px;
+        left: 758px;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 30px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .home-page .text-wrapper-8 {
+        position: absolute;
+        width: 318px;
+        top: 71px;
+        left: 1440px;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #303b86;
+        font-size: 50px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .home-page .resume-CV-interviews-wrapper {
+        position: absolute;
+        width: 1728px;
+        height: 477px;
+        top: 0;
+        left: 0;
+        background-color: #d9d9d95e;
+    }
+
+    .home-page .resume-CV-interviews {
+        position: absolute;
+        width: 136px;
+        top: 161px;
+        left: 322px;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .home-page .middel-home-page {
+        position: absolute;
+        width: 1652px;
+        height: 620px;
+        top: 935px;
+        left: 44px;
+    }
+
+    .home-page .overlap-3 {
+        position: relative;
+        height: 620px;
+    }
+
+    .home-page .rectangle-2 {
+        position: absolute;
+        width: 1645px;
+        height: 620px;
+        top: 0;
+        left: 0;
+        background-color: #d9d9d966;
+        border-radius: 15px;
+    }
+
+    .home-page .rectangle-3 {
+        position: absolute;
+        width: 748px;
+        height: 484px;
+        top: 27px;
+        left: 50px;
+        background-color: #303b86;
+    }
+
+    .home-page .rectangle-4 {
+        position: absolute;
+        width: 748px;
+        height: 484px;
+        top: 26px;
+        left: 904px;
+        background-color: #303b86;
+    }
+
+    .home-page .element-essential-lessons {
+        position: absolute;
+        width: 748px;
+        height: 450px;
+        top: 60px;
+        left: 871px;
+        object-fit: cover;
+    }
+
+    .home-page .why-do-you-want-to {
+        position: absolute;
+        width: 730px;
+        height: 457px;
+        top: 60px;
+        left: 32px;
+        object-fit: cover;
+    }
+
+    .home-page .rectangle-5 {
+        position: absolute;
+        width: 225px;
+        height: 51px;
+        top: 546px;
+        left: 281px;
+        background-color: #303b86;
+        border-radius: 20px;
+    }
+
+    .home-page .rectangle-6 {
+        position: absolute;
+        width: 225px;
+        height: 51px;
+        top: 546px;
+        left: 1165px;
+        background-color: #303b86;
+        border-radius: 20px;
+    }
+
+    .home-page .seeker {
+        top: 563px;
+        left: 331px;
+        position: absolute;
+        width: 338px;
+        height: 20px;
+    }
+
+    .home-page .text-wrapper-9 {
+        position: absolute;
+        width: 338px;
+        height: 16px;
+        top: -2px;
+        left: -1px;
+        -webkit-text-stroke: 1px #000000;
+        font-family: var(--m3-display-small-font-family);
+        font-weight: var(--m3-display-small-font-weight);
+        color: #ffffff;
+        font-size: var(--m3-display-small-font-size);
+        letter-spacing: var(--m3-display-small-letter-spacing);
+        line-height: var(--m3-display-small-line-height);
+        white-space: nowrap;
+        font-style: var(--m3-display-small-font-style);
+    }
+
+    .home-page .seeker-wrapper {
+        top: 561px;
+        left: 1202px;
+        position: absolute;
+        width: 338px;
+        height: 20px;
+    }
+
+    .home-page .homepage {
+        position: absolute;
+        width: 1551px;
+        height: 838px;
+        top: 1932px;
+        left: 80px;
+    }
+
+    .home-page .div-wrapper {
+        position: absolute;
+        width: 365px;
+        height: 63px;
+        top: 506px;
+        left: 976px;
+        background-color: #303b86;
+        border-radius: 20px;
+    }
+
+    .home-page .text-wrapper-10 {
+        position: absolute;
+        top: 3px;
+        left: 89px;
+        font-family: "Kaisei Opti-Bold", Helvetica;
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 36px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .home-page .element-ways-to-earn-wrapper {
+        position: absolute;
+        width: 710px;
+        height: 838px;
+        top: 0;
+        left: 0;
+        background-color: #303b86;
+    }
+
+    .home-page .element-ways-to-earn {
+        position: absolute;
+        width: 662px;
+        height: 781px;
+        top: 57px;
+        left: 0;
+        object-fit: cover;
+    }
+
+    .home-page .overlap-4 {
+        position: absolute;
+        width: 796px;
+        height: 268px;
+        top: 153px;
+        left: 755px;
+    }
+
+    .home-page .rectangle-7 {
+        position: absolute;
+        width: 796px;
+        height: 251px;
+        top: 13px;
+        left: 0;
+        border-radius: 30px;
+        border: 1px solid;
+        border-color: #000000;
+    }
+
+    .home-page .tell-us-about {
+        position: absolute;
+        width: 722px;
+        height: 268px;
+        top: 0;
+        left: 56px;
+        font-family: "Roboto-Regular", Helvetica;
+        font-weight: 400;
+        color: #00000033;
+        font-size: 57px;
+        letter-spacing: -0.25px;
+        line-height: 64px;
+    }
+
+.dropbtn {
+    background-color: #d9d9d966;
+    color: #303b86;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Kaisei Opti-Bold", Helvetica;
+    border: none;
+    line-height: normal;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #d9d9d966
+}
+
+.all {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    ;
+}

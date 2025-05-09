@@ -1,0 +1,132 @@
+﻿html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+}
+
+.create-acc-company {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.overlap-group-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.overlap-group {
+    display: flex;
+    width: 100%;
+}
+
+.overlap {
+    width: 50%;
+    background-color: #283593;
+    padding: 3rem;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-back-to-workhub {
+    font-size: 2.8rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.form-section {
+    width: 50%;
+    padding: 4rem 3rem;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #283593;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+label {
+    font-weight: 500;
+    margin-top: 1rem;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+.input-field {
+    width: 100%;
+    padding: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+.login-button {
+    background-color: #283593;
+    color: white;
+    font-size: 1rem;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+    .login-button:hover {
+        background-color: #1a237e;
+    }
+
+.account-prompt {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+    .account-prompt a {
+        color: #283593;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .account-prompt a:hover {
+            text-decoration: underline;
+        }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .create-acc-company {
+        flex-direction: column;
+    }
+
+    .overlap, .form-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .overlap {
+        padding: 2rem;
+    }
+
+    .form-section {
+        padding: 2rem;
+    }
+}

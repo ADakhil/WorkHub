@@ -1,0 +1,144 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+    .profile-container h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+.profile-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.profile-picture {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+    .picture-placeholder::before {
+        content: "Profile Image";
+        color: #888;
+        font-size: 14px;
+    }
+
+.profile-picture span {
+    color: #666;
+    font-size: 14px;
+}
+
+.profile-details {
+    flex: 2;
+    min-width: 300px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+        font-weight: bold;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+        .form-group input:read-only {
+            background-color: #f9f9f9;
+            color: #666;
+        }
+
+.optional {
+    color: #999;
+    font-size: 12px;
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.save-btn, .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.save-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+    .save-btn:hover {
+        background-color: #45a049;
+    }
+
+.cancel-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+    .cancel-btn:hover {
+        background-color: #d32f2f;
+    }
+
+@media (max-width: 600px) {
+    .profile-section {
+        flex-direction: column;
+    }
+
+    .profile-picture {
+        margin-bottom: 20px;
+    }
+}

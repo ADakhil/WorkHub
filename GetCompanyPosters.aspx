@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetCompanyPosters.aspx.cs" Inherits="workHub.GetCompanyPosters" %>
