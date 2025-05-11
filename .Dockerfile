@@ -7,6 +7,6 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/* 
 
 RUN mkdir /opt/app
-COPY . /opt/app
+COPY ./src /opt/app
 
 CMD ["xsp4", "/opt/app"]
